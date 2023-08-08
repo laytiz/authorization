@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import LoginForm from "./components/LoginForm";
+import LoginForm from "./components/LoginForm/LoginForm";
 import { login } from "./store/auth/authSlice";
 import LogoutButton from "./components/LogoutButton";
 
